@@ -8,7 +8,7 @@ public class fibonacci{
         int n=sc.nextInt();
         System.out.println(n1 +""+ n2);
         
-        for(int i=2;i<=n;i++){
+        for(int i=1;i<=n;i++){
             n3=n2+n1;
             System.out.println(" " +n3);
             n1=n2;
